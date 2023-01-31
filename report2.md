@@ -137,9 +137,9 @@ class Handler implements URLHandler {
 }
 ```
 
-## Argument 2:
+## Argument 1:
 
-![Image](test2.png)
+![Image](test1.png)
 
 * The `public String handleRequest(URI url)` method is called. 
 * The only argument for the method is the URL of the request which contains the path and query information.
@@ -201,6 +201,7 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 ```
+The provided code did not update or return the variable `int[] newArray` and also updated the wrong index. The fixed method correct updates and returns the `newArray` variable by using the correct indices (`arr.length` to `0`) to update `newArray` with the values from `arr`.
 
 # Learning
 
