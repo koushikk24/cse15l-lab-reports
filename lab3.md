@@ -14,7 +14,7 @@ In this example, I use `grep -c` to count the number of "the" in `Bahamas-Intro.
 ```
 $ grep -c "Ath3ns" Athens-WhatToDo.txt
 0
-``
+```
 
 #### `grep -n "(text)" (file)`
 
